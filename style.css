@@ -1,0 +1,50 @@
+ul {
+    list-style-type: none;
+    margin: auto;
+    margin-top: 175px;
+    padding: 13px;
+    border: 1px solid #f99200;
+    border-radius: 15px;
+    width: 220px;
+}
+
+ul a{
+    background: #f7b600 url(Imagens/arquivos-necessarios-barra-navegacao-vertical/menu.png) no-repeat;
+    /*border: 1px solid rebeccapurple;*/
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    border: 1px solid orange;
+    border-radius: 15px;
+    margin: 8px;
+   
+}
+
+a:hover {
+    background-position: right;
+    background-color: #f99200;
+    animation-duration: 1s;
+    animation-name: transation;
+    color: aliceblue;
+}
+
+
+@keyframes transation {
+    from {
+        background-position: left;
+    }
+
+    to {
+        background-position: right;
+    }
+}
+/*li {
+    border: 1px solid green;
+    padding: 8px 20px;
+    background: url(Imagens/arquivos-necessarios-barra-navegacao-vertical/seta.png) no-repeat left center;
+    background: url(Imagens/arquivos-necessarios-barra-navegacao-vertical/menu.png) no-repeat left ;
+}*/
